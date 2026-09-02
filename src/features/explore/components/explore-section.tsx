@@ -57,6 +57,7 @@ export function ExploreSection() {
               alt=""
               width={240}
               height={240}
+              unoptimized
               className="w-[140px] object-contain opacity-30 md:w-[190px] lg:w-[240px]"
             />
           </motion.div>
@@ -71,6 +72,7 @@ export function ExploreSection() {
               alt=""
               width={200}
               height={200}
+              unoptimized
               className="w-[120px] object-contain opacity-30 md:w-[160px] lg:w-[200px]"
             />
           </motion.div>
@@ -79,7 +81,7 @@ export function ExploreSection() {
           <div className="relative h-[240px] w-full overflow-hidden rounded-2xl shadow-2xl sm:h-[320px] md:h-[390px] lg:h-[457px]">
             {/* Background Image */}
             <Image
-              src="/ExploreSection/imageExplore.png"
+              src="/ExploreSection/imageExplore.webp"
               alt="Explore Tour Background"
               fill
               className="object-cover object-center"

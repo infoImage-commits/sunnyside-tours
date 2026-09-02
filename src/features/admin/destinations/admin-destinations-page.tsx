@@ -367,6 +367,7 @@ function DestinationThumb({ destination }: { destination: Destination }) {
           className="size-full object-cover"
           height={56}
           src={imageUrl}
+          unoptimized
           width={56}
         />
       ) : (
@@ -626,6 +627,7 @@ function DestinationFormFields({
                       className="size-full object-cover"
                       height={96}
                       src={imageUrl}
+                      unoptimized
                       width={144}
                     />
                   ) : (

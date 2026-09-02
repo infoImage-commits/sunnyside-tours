@@ -27,7 +27,7 @@ export function TripsHero() {
       style={{
         backgroundImage: `
           linear-gradient(270deg, #C0C0C0 0%, #5A5A5A 100%),
-          url('/Trips/HeroTrips.png')
+          url('/Trips/HeroTrips.webp')
         `,
         backgroundBlendMode: "multiply",
       }}

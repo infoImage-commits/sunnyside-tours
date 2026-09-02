@@ -17,6 +17,7 @@ export function StepCard({ step, t }: StepCardProps) {
           alt={t(step.titleKey)}
           width={120}
           height={120}
+          unoptimized
           className="h-[100px] w-[100px] md:h-[120px] md:w-[120px]"
         />
       </div>

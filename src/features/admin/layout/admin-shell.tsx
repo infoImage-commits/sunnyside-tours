@@ -213,6 +213,7 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
               alt="Hurghada Tourism"
               width={130}
               height={29}
+              unoptimized
               className="h-auto w-[130px]"
             />
           </Link>
@@ -271,6 +272,7 @@ function AdminSidebar({
             alt="Hurghada Tourism"
             width={154}
             height={34}
+            unoptimized
             className="h-auto w-[154px]"
           />
         </Link>

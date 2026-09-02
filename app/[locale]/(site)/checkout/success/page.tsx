@@ -39,6 +39,7 @@ export default function CheckoutSuccessPage() {
           src="/succes.gif"
           alt={t("imageAlt")}
           fill
+          unoptimized
           className="object-contain"
         />
       </div>

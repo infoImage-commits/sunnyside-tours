@@ -321,6 +321,7 @@ function BlogThumb({ blog }: { blog: Blog }) {
           className="size-full object-cover"
           height={56}
           src={imageUrl}
+          unoptimized
           width={80}
         />
       ) : (
@@ -601,6 +602,7 @@ function BlogFormFields({
                   className="size-full object-cover"
                   height={128}
                   src={blogImageUrl}
+                  unoptimized
                   width={280}
                 />
               ) : (
@@ -794,6 +796,7 @@ function SectionEditor({
               className="size-full object-cover"
               height={96}
               src={imageUrl}
+              unoptimized
               width={180}
             />
           ) : (

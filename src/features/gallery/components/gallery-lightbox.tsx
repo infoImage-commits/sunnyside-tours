@@ -186,6 +186,7 @@ export function GalleryLightbox({
           alt={`Gallery image ${image.id}`}
           fill
           className="select-none object-contain"
+          sizes="(min-width: 1280px) 1152px, 90vw"
           style={{
             // Only transition the scale, not transform-origin, so panning feels instant
             transition: "transform 0.3s ease",

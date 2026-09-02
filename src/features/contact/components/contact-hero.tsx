@@ -81,6 +81,7 @@ export function ContactHero() {
             alt={t("imageAlt")}
             fill
             className="object-contain object-right-top lg:object-top"
+            sizes="(min-width: 1024px) 420px, (min-width: 768px) 34vw, 38vw"
             priority
           />
         </motion.div>

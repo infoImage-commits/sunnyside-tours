@@ -572,6 +572,7 @@ function TripThumb({ trip }: { trip: Trip }) {
           className="size-full object-cover"
           height={64}
           src={imageUrl}
+          unoptimized
           width={64}
         />
       ) : (
@@ -1806,6 +1807,7 @@ function ImagesStep({
                     className="object-cover"
                     fill
                     src={getTripImageUrl(image.imageUrl)}
+                    unoptimized
                   />
                   {image.isPrimary ? (
                     <span className="absolute left-3 top-3 inline-flex items-center gap-1 rounded-lg bg-white px-2 py-1 text-xs font-bold text-[var(--color-ocean)]">

@@ -25,7 +25,7 @@ export function BlogsHero() {
   return (
     <section className="relative h-[240px] w-full overflow-hidden sm:h-[320px] lg:h-[400px]">
       <Image
-        src="/Blogs/blogsHero.png"
+        src="/Blogs/blogsHero.webp"
         alt={t("imageAlt")}
         fill
         priority

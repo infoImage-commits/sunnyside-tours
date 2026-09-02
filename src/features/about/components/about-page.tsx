@@ -115,6 +115,7 @@ export function AboutPage() {
             width={993}
             height={481}
             aria-hidden="true"
+            unoptimized
             className="pointer-events-none absolute left-[38%] top-[6px] hidden w-[330px] opacity-95 sm:block sm:left-[36%] sm:top-[10px] sm:w-[520px] lg:left-[34%] lg:top-[68px] lg:w-[620px]"
           />
 
@@ -269,6 +270,7 @@ export function AboutPage() {
                   width={125}
                   height={128}
                   aria-hidden="true"
+                  unoptimized
                   className="h-auto w-[68px] sm:w-[100px] lg:w-[125px]"
                 />
                 <h3 className="mt-3 min-h-[34px] break-words text-[13px] font-bold leading-[130%] text-[#2d2f34] sm:min-h-0 sm:text-base lg:text-lg">

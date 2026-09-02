@@ -197,6 +197,7 @@ function GalleryCard({
             fill
             sizes="(min-width: 1536px) 25vw, (min-width: 1280px) 33vw, (min-width: 640px) 50vw, 100vw"
             src={imageUrl}
+            unoptimized
           />
         ) : (
           <span className="grid size-full place-items-center">
@@ -405,6 +406,7 @@ function GalleryDetailPanel({
                   fill
                   sizes="(min-width: 1024px) 760px, 100vw"
                   src={imageUrl}
+                  unoptimized
                 />
               ) : (
                 <span className="grid size-full place-items-center">

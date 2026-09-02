@@ -7,9 +7,9 @@ export interface HeroDestination {
 }
 
 // Fixed 3 cards — each maps to a specific background slide
-// Red Sea  → index 0 (boat.png)
-// Luxor    → index 1 (sunset.png)
-// Giza     → index 2 (prim.png)
+// Red Sea  -> index 0 (boat.webp)
+// Luxor    -> index 1 (sunset.webp)
+// Giza     -> index 2 (prim.webp)
 export const heroDestinations: HeroDestination[] = [
   {
     id: "red-sea",

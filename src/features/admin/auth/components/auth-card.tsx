@@ -15,7 +15,7 @@ export function AuthCard({
     <section className="grid min-h-full bg-[#f5f9ff] px-5 py-8 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:px-0 lg:py-0">
       <div className="relative hidden overflow-hidden bg-[var(--color-deep-ocean)] lg:block">
         <Image
-          src="/Hero/boat.png"
+          src="/Hero/boat.webp"
           alt="Luxury yacht experience"
           fill
           priority
@@ -31,6 +31,7 @@ export function AuthCard({
                 alt="SunnySide Tours Admin"
                 width={120}
                 height={26}
+                unoptimized
                 className="h-auto w-[120px]"
               />
             </div>

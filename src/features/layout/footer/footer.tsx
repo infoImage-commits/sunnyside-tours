@@ -66,6 +66,7 @@ export function Footer() {
             alt="SunnySide Tours"
             width={240}
             height={53}
+            unoptimized
             className="h-auto w-[200px] sm:w-[240px]"
           />
           <p className="max-w-[292px] text-base font-normal leading-[160%] text-[var(--color-footer-text)]">

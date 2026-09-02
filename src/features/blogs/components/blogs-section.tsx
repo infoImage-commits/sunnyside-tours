@@ -82,6 +82,7 @@ export function BlogsSection() {
             alt=""
             width={500}
             height={500}
+            unoptimized
             className="absolute left-[0%] top-[-5%] w-[350px] object-contain md:left-[15%] md:top-[-11%] md:w-[500px]"
           />
         </div>

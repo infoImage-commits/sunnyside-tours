@@ -77,6 +77,7 @@ export function GalleryHero() {
             alt={t("imageAlt")}
             fill
             className="object-contain lg:object-left-top"
+            sizes="(min-width: 1024px) 610px, (min-width: 768px) 46vw, 52vw"
             priority
           />
         </div>
